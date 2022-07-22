@@ -15,5 +15,4 @@
 - Para alterar o produto, altere o código dele de acordo com o código do produto no site KaBuM no arquivo main_data.js
 - Resolução da página travada no arquivo cypress.config.js, para testes em outra resolução alterar esse arquivo.
 - Devido a finalização da sessão, para não quebrar o fluxo foram incluídos os métodos  input_postal_code(data.postal_code) e confirm_postal_code() no fluxo do usuário logado, porém não é necessário. Remover o skip do cenário de login.
-- Se rodar local, favor adicionar o endereço do site no arquivo cypress.config.js, como baseURL.
 - Esse documento visa apenas estudo.
