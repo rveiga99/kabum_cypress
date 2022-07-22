@@ -8,7 +8,7 @@ class home {
     }
 
     go_main_page(){
-        cy.visit('/')
+        cy.visit('https://www.kabum.com.br')
         cy.get('.IconLogoKabum')
         cy.get('#linkLoginHeader').should('have.text','Login')
     }
